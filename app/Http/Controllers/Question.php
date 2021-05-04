@@ -146,6 +146,10 @@ class Question extends Controller
 
     }
     
+       /**
+     * @return view
+     * 
+     */
 
     public function YourQuestion() { 
         // get all data 
@@ -157,6 +161,11 @@ class Question extends Controller
     }
 
 
+       /**
+     * @return view 
+     * @params Request 
+     * 
+     */
     public function SearchQuestion(Request $request) { 
         
         $search = DB::table('question')
