@@ -1,0 +1,47 @@
+@font-face {
+   font-family: "Vog";
+    src: url("../font/Reg.ttf");
+}
+@font-face {
+  font-family: "The";
+  src: url("../font/As.otf");
+			   }
+			  
+
+body{
+	font-family: Vog;
+	background-color: #0091FF;
+}
+
+h1{
+	font-family: The;
+}
+
+#myforms{
+	
+	width: 600px;
+	background-color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	  margin: 0 auto;
+	  margin-top: 20px;
+	
+	
+}
+
+@media only screen and (max-width: 600px) {
+
+
+#myforms{
+	
+	width: 300px;
+	background-color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+    margin: 0 auto;
+	margin-top: 75px; 
+	
+	
+}
+	
+}
